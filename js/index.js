@@ -1,6 +1,3 @@
-const body = document.getElementById('body');
-body.style.backgroundColor = '#EBEBEB'
-
 
 
 const contin = document.getElementById('continer')
@@ -113,7 +110,6 @@ const head_h1 = document.getElementById('header_h1');
 
 head_h1.style.fontSize = '64px';
 head_h1.style.fontFamily = 'Nunito Sans';
-head_h1.style.color = '#2B2B2B';
 head_h1.style.marginBottom = '31px';
 
 
@@ -121,7 +117,6 @@ const head_p = document.getElementById('header_p');
 
 head_p.style.fontSize ='24px';
 head_p.style.fontWeight ='700';
-head_p.style.color ='#2B2B2B';
 head_p.style.fontFamily ='Nunito Sans';
 
 
@@ -143,7 +138,6 @@ main.style.marginBottom = '100px'
 const main_h1 = document.getElementById('main_h1');
 
 main_h1.style.fontSize = '53px';
-main_h1.style.color = '#2B2B2B';
 main_h1.style.fontFamily = 'Nunito Sans';
 main_h1.style.marginBottom = '60px';
 
@@ -155,7 +149,6 @@ main_tag.style.gap = "54px";
 
 const main_p1 = document.getElementById('main_p1');
 
-main_p1.style.color = '#2B2B2B';
 main_p1.style.fontSize = '16px';
 main_p1.style.fontWeight = '600';
 main_p1.style.fontFamily = 'Nunito Sans';
@@ -164,7 +157,6 @@ main_p1.style.margin = '0';
 
 const main_p2 = document.getElementById('main_p2');
 
-main_p2.style.color = '#2B2B2B';
 main_p2.style.fontSize = '16px';
 main_p2.style.fontWeight = '600';
 main_p2.style.fontFamily = 'Nunito Sans';
@@ -177,13 +169,22 @@ const main_read1 = document.getElementById('main_read1');
 main_read1.style.display = 'flex';
 main_read1.style.gap = '10px';
 
+const main_h4 = document.getElementById('main_h4');
+
+main_h4.style.fontFamily = 'Nunito Sans';
+main_h4.style.fontSize = '18px';
+
+
 
 const main_read2 = document.getElementById('main_read2');
 
 main_read2.style.display = 'flex';
 main_read2.style.gap = '10px';
 
+const main_h4_2 = document.getElementById('main_h4_2');
 
+main_h4_2.style.fontFamily = 'Nunito Sans';
+main_h4_2.style.fontSize = '18px';
 
 
 
@@ -206,7 +207,6 @@ hero.style.marginBottom = '145px';
 const hero_h3 = document.getElementById('hero_nulla');
 
 hero_h3.style.fontSize = '39px';
-hero_h3.style.color = '#2B2B2B';
 hero_h3.style.fontFamily = 'Nunito Sans';
 
 
@@ -214,7 +214,6 @@ const hero_p = document.getElementById("hero_p");
 
 hero_p.style.fontSize = '18px';
 hero_p.style.fontFamily = 'Nunito Sans';
-hero_p.style.color = '#2B2B2B';
 hero_p.style.maxWidth = '508px';
 
 
@@ -266,7 +265,7 @@ team_des.style.marginBottom ="81px";
 
 const t_d_h3 = document.getElementById('team_des_h3');
 
-t_d_h3.style.color = '#2B2B2B';
+
 t_d_h3.style.fontSize = '25px';
 t_d_h3.style.fontFamily = 'Nunito Sans';
 t_d_h3.style.maxWidth = '272.19px';
@@ -276,7 +275,6 @@ t_d_h3.style.marginBottom = '20px';
 const t_d_p = document.getElementById('team_des_p');
 
 t_d_p.style.fontFamily = 'Nunito Sans';
-t_d_p.style.color = '#2B2B2B';
 t_d_p.style.maxWidth = '272.19px';
 t_d_p.style.fontWeight = '600';
 
@@ -297,7 +295,6 @@ const nulla_h1 = document.getElementById('nulla_h1');
 nulla_h1.style.textAlign = 'center';
 nulla_h1.style.fontFamily = 'Nunito Sans';
 nulla_h1.style.fontSize = '56px';
-nulla_h1.style.color = '#2B2B2B';
 nulla_h1.style.marginBottom = '81px';
 
 
@@ -319,7 +316,7 @@ nulla_smallest1.style.boxShadow = '0 0 40px #3928A626';
 
 const nulla_p1 =document.getElementById('nulla_p1');
 
-nulla_p1.style.color = '#2B2B2B';
+
 nulla_p1.style.fontSize = '16px';
 nulla_p1.style.fontWeight = '600';
 nulla_p1.style.fontFamily = 'Nunito Sans';
@@ -334,7 +331,7 @@ nulla_smallest2.style.boxShadow = '0 0 40px #3928A626';
 
 const nulla_p2 =document.getElementById('nulla_p2');
 
-nulla_p2.style.color = '#2B2B2B';
+
 nulla_p2.style.fontSize = '16px';
 nulla_p2.style.fontWeight = '600';
 nulla_p2.style.fontFamily = 'Nunito Sans';
@@ -346,7 +343,6 @@ const nulla_h5_1 = document.getElementById('nulla_h5_1');
 
 nulla_h5_1.style.fontFamily = 'Nunito Sans';
 nulla_h5_1.style.fontSize = '18px';
-nulla_h5_1.style.color = '#2B2B2B';
 nulla_h5_1.style.marginTop = '20px';
 nulla_h5_1.style.lineHeight = '28px';
 nulla_h5_1.style.marginBottom = '0px';
@@ -355,7 +351,6 @@ const nulla_smallest_p1 = document.getElementById('nulla_smallest_p1');
 
 nulla_smallest_p1.style.fontFamily = 'Nunito Sans';
 nulla_smallest_p1.style.fontSize = '16px';
-nulla_smallest_p1.style.color = '#2B2B2B';
 nulla_smallest_p1.style.fontWeight = '600';
 nulla_smallest_p1.style.margin = '0';
 
@@ -366,7 +361,6 @@ const nulla_h5_2 = document.getElementById('nulla_h5_2');
 
 nulla_h5_2.style.fontFamily = 'Nunito Sans';
 nulla_h5_2.style.fontSize = '18px';
-nulla_h5_2.style.color = '#2B2B2B';
 nulla_h5_2.style.marginTop = '20px';
 nulla_h5_2.style.lineHeight = '28px';
 nulla_h5_2.style.marginBottom = '0px';
@@ -375,7 +369,6 @@ const nulla_smallest_p2 = document.getElementById('nulla_smallest_p2');
 
 nulla_smallest_p2.style.fontFamily = 'Nunito Sans';
 nulla_smallest_p2.style.fontSize = '16px';
-nulla_smallest_p2.style.color = '#2B2B2B';
 nulla_smallest_p2.style.fontWeight = '600';
 nulla_smallest_p2.style.margin = '0';
 
@@ -396,7 +389,6 @@ const footer_h6 = document.getElementById('footer_h6');
 
 footer_h6.style.fontSize = '14px';
 footer_h6.style.fontFamily = 'Nunito Sans';
-footer_h6.style.color = '#2B2B2B';
 footer_h6.style.marginBottom = '20.29px';
 
 
@@ -413,7 +405,99 @@ const footer_h5 = document.getElementById('footer_h5');
 
 footer_h5.style.fontSize = '14px';
 footer_h5.style.fontFamily = 'Nunito Sans';
-footer_h5.style.color = '#2B2B2B';
 footer_h5.style.maxWidth = '182.41px';
 footer_h5.style.fontWeight = '600';
 footer_h5.style.margin = '0';
+
+
+
+const body = document.getElementById('body');
+const button_light = document.getElementById('buttons1_btn1');
+
+button_light.addEventListener('click', function(event){
+     event.preventDefault();
+
+     body.style.backgroundColor = '#EBEBEB';
+
+     nav_link1.style.color = "#2B2B2B";
+     nav_link2.style.color = "#2B2B2B";
+     nav_link3.style.color = "#2B2B2B";
+// header
+     head_h1.style.color = '#2B2B2B';
+     head_p.style.color = '#2B2B2B';
+// main
+     main_h1.style.color = '#2B2B2B';
+     main_p1.style.color = '#2B2B2B';
+     main_p2.style.color = '#2B2B2B';
+     main_h4.style.color = '#2B2B2B';
+     main_h4_2.style.color = '#2B2B2B';
+// hero
+     hero_h3.style.color = '#2B2B2B';
+     hero_p.style.color = '#2B2B2B';
+     hero_ul1.style.color = '#2B2B2B';
+     hero_ul2.style.color = '#2B2B2B';
+// team_design
+     t_d_h3.style.color = '#2B2B2B';
+     t_d_p.style.color = '#2B2B2B';
+
+
+// nulla
+     nulla_smallest_p2.style.color = '#2B2B2B';
+     nulla_h5_2.style.color = '#2B2B2B';
+     nulla_smallest_p1.style.color = '#2B2B2B';
+     nulla_h5_1.style.color = '#2B2B2B';
+     nulla_p2.style.color = '#2B2B2B';
+     nulla_p1.style.color = '#2B2B2B';
+     nulla_h1.style.color = '#2B2B2B';
+
+// footer
+     footer_h6.style.color = '#2B2B2B';
+     footer_h5.style.color = '#2B2B2B';
+});
+
+
+
+
+
+const button_dark = document.getElementById('buttons1_btn2');
+
+button_dark.addEventListener('click', function(event){
+    event.preventDefault();
+
+    body.style.backgroundColor = '#2B2B2B';
+    nav_link1.style.color = "#EBEBEB";
+    nav_link2.style.color = "#EBEBEB";
+    nav_link3.style.color = "#EBEBEB";
+// header
+    head_h1.style.color = '#EBEBEB';
+    head_p.style.color = '#EBEBEB';
+
+// main
+    main_h1.style.color = '#EBEBEB';
+    main_p1.style.color = '#EBEBEB';
+    main_p2.style.color = '#EBEBEB';
+    main_h4.style.color = '#EBEBEB';
+    main_h4_2.style.color = '#EBEBEB';
+// hero
+     hero_h3.style.color = '#EBEBEB';
+     hero_p.style.color = '#EBEBEB';
+     hero_ul1.style.color = '#EBEBEB';
+     hero_ul2.style.color = '#EBEBEB';
+// team_design
+    t_d_h3.style.color = '#EBEBEB';
+    t_d_p.style.color = '#EBEBEB';
+ 
+// nulla
+    nulla_smallest_p2.style.color = '#EBEBEB';
+    nulla_h5_2.style.color = '#EBEBEB';
+    nulla_smallest_p1.style.color = '#EBEBEB';
+    nulla_h5_1.style.color = '#EBEBEB';
+    nulla_p2.style.color = '#EBEBEB';
+    nulla_p1.style.color = '#EBEBEB';
+    nulla_h1.style.color = '#EBEBEB';
+
+
+// footer
+    footer_h6.style.color = '#EBEBEB';
+    footer_h5.style.color = '#EBEBEB';
+});
