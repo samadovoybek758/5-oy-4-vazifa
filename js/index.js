@@ -313,6 +313,7 @@ const nulla_smallest1 = document.getElementById('nulla_smallest1');
 
 nulla_smallest1.style.padding = '60px 24px 28px 60px';
 nulla_smallest1.style.boxShadow = '0 0 40px #3928A626';
+nulla_smallest1.style.borderRadius = '5px';
 
 const nulla_p1 =document.getElementById('nulla_p1');
 
@@ -328,6 +329,8 @@ const nulla_smallest2 = document.getElementById('nulla_smallest2');
 
 nulla_smallest2.style.padding = '60px 14px 28px 60px';
 nulla_smallest2.style.boxShadow = '0 0 40px #3928A626';
+nulla_smallest2.style.borderRadius = '5px';
+
 
 const nulla_p2 =document.getElementById('nulla_p2');
 
@@ -400,6 +403,15 @@ footer_icons.style.gap = '20px';
 footer_icons.style.marginBottom = '23.06px';
 
 
+const footer_icons_2 = document.getElementById('footer_icons_2');
+
+footer_icons_2.style.display = 'flex';
+footer_icons_2.style.flexDirection = 'row';
+footer_icons_2.style.gap = '20px';
+footer_icons_2.style.marginBottom = '23.06px';
+footer_icons_2.style.display = 'none';
+
+
 
 const footer_h5 = document.getElementById('footer_h5');
 
@@ -411,6 +423,9 @@ footer_h5.style.margin = '0';
 
 
 
+
+// buttons effect
+
 const body = document.getElementById('body');
 const button_light = document.getElementById('buttons1_btn1');
 
@@ -418,24 +433,32 @@ button_light.addEventListener('click', function(event){
      event.preventDefault();
 
      body.style.backgroundColor = '#EBEBEB';
-
+// navbar
      nav_link1.style.color = "#2B2B2B";
      nav_link2.style.color = "#2B2B2B";
      nav_link3.style.color = "#2B2B2B";
+
+
 // header
      head_h1.style.color = '#2B2B2B';
      head_p.style.color = '#2B2B2B';
+
+
 // main
      main_h1.style.color = '#2B2B2B';
      main_p1.style.color = '#2B2B2B';
      main_p2.style.color = '#2B2B2B';
      main_h4.style.color = '#2B2B2B';
      main_h4_2.style.color = '#2B2B2B';
+
+
 // hero
      hero_h3.style.color = '#2B2B2B';
      hero_p.style.color = '#2B2B2B';
      hero_ul1.style.color = '#2B2B2B';
      hero_ul2.style.color = '#2B2B2B';
+
+
 // team_design
      t_d_h3.style.color = '#2B2B2B';
      t_d_p.style.color = '#2B2B2B';
@@ -450,9 +473,13 @@ button_light.addEventListener('click', function(event){
      nulla_p1.style.color = '#2B2B2B';
      nulla_h1.style.color = '#2B2B2B';
 
+
 // footer
      footer_h6.style.color = '#2B2B2B';
      footer_h5.style.color = '#2B2B2B';
+     footer_icons.style.display = 'block';
+     footer_icons_2.style.display = 'none';
+
 });
 
 
@@ -463,14 +490,17 @@ const button_dark = document.getElementById('buttons1_btn2');
 
 button_dark.addEventListener('click', function(event){
     event.preventDefault();
-
+// navbar
     body.style.backgroundColor = '#2B2B2B';
     nav_link1.style.color = "#EBEBEB";
     nav_link2.style.color = "#EBEBEB";
     nav_link3.style.color = "#EBEBEB";
+
+
 // header
     head_h1.style.color = '#EBEBEB';
     head_p.style.color = '#EBEBEB';
+
 
 // main
     main_h1.style.color = '#EBEBEB';
@@ -478,26 +508,31 @@ button_dark.addEventListener('click', function(event){
     main_p2.style.color = '#EBEBEB';
     main_h4.style.color = '#EBEBEB';
     main_h4_2.style.color = '#EBEBEB';
+
+
 // hero
      hero_h3.style.color = '#EBEBEB';
      hero_p.style.color = '#EBEBEB';
      hero_ul1.style.color = '#EBEBEB';
      hero_ul2.style.color = '#EBEBEB';
+
+
 // team_design
     t_d_h3.style.color = '#EBEBEB';
     t_d_p.style.color = '#EBEBEB';
  
+
 // nulla
-    nulla_smallest_p2.style.color = '#EBEBEB';
-    nulla_h5_2.style.color = '#EBEBEB';
-    nulla_smallest_p1.style.color = '#EBEBEB';
-    nulla_h5_1.style.color = '#EBEBEB';
-    nulla_p2.style.color = '#EBEBEB';
-    nulla_p1.style.color = '#EBEBEB';
     nulla_h1.style.color = '#EBEBEB';
+    nulla_smallest1.style.backgroundColor = '#EBEBEB';
+    nulla_smallest2.style.backgroundColor = '#EBEBEB';
 
 
 // footer
     footer_h6.style.color = '#EBEBEB';
     footer_h5.style.color = '#EBEBEB';
+    footer_icons_2.style.display = 'block';
+    footer_icons.style.display = 'none';
+
+
 });
